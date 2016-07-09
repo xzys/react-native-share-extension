@@ -240,8 +240,7 @@ and in `values/styles.xml`
 
 - now you should be able to compile the code without error.
 
-> if you need to add more packages to your share extension do not overrides
-`getPackages`. instead override `getMorePackages` method under `ShareExActivity`.
+> if you need to add more packages to your share extension, you can add them as you normally do under in `getPackages` `MainApplication.java`.
 
 # Share Component
 
